@@ -1,3 +1,5 @@
-require "railscommits/version"
-require "railscommits/request"
-require "railscommits/commit_history"
+require 'faraday'
+require 'json'
+require 'railscommits/version'
+require 'railscommits/request'
+require 'railscommits/commit_history'

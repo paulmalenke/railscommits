@@ -1,3 +1,5 @@
+# Main module for gem
 module RailsCommits
-  VERSION = "0.0.1"
+  # Stores gem version
+  VERSION = '0.0.1'
 end
