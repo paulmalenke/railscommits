@@ -5,7 +5,7 @@ require 'railscommits/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "railscommits"
-  spec.version       = Railscommits::VERSION
+  spec.version       = RailsCommits::VERSION
   spec.authors       = ["Paul Malenke"]
   spec.email         = ["paul.malenke@mac.com"]
   spec.summary       = %q{Get the latest status on the Rails source.}
