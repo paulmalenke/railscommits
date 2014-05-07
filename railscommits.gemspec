@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Railscommits::VERSION
   spec.authors       = ["Paul Malenke"]
   spec.email         = ["paul.malenke@mac.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Get the latest status on the Rails source.}
+  spec.description   = %q{}
   spec.homepage      = ""
   spec.license       = "MIT"
 
