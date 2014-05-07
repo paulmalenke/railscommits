@@ -1,5 +1,3 @@
 require "railscommits/version"
-
-module RailsCommits
-  
-end
+require "railscommits/request"
+require "railscommits/commit_history"
