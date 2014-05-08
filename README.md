@@ -2,6 +2,8 @@
 
 A command line app that allows you to see the latest commits from the Rails repository on GitHub
 
+[![Code Climate](https://codeclimate.com/github/paulmalenke/railscommits.png)](https://codeclimate.com/github/paulmalenke/railscommits)
+
 ## Installation
 
 Install through rubygems:
