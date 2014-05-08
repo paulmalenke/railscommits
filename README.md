@@ -1,29 +1,18 @@
-# Railscommits
+# Rails Commits CLI
 
-TODO: Write a gem description
+A command line app that allows you to see the latest commits from the Rails repository on GitHub
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'railscommits'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Install through rubygems:
 
     $ gem install railscommits
 
 ## Usage
 
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/railscommits/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+    $ railscommits --token TOKEN [--count N] [--author AUTHOR]
+    
+    -t, --token       GitHub OAUTH Token
+    -c, --count       Optional count (number of results)
+    -a, --author      Optional author (e.g. dhh)
+    -h, --help        Display this help message.
