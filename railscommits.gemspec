@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = RailsCommits::VERSION
   spec.authors       = ["Paul Malenke"]
   spec.email         = ["paul.malenke@mac.com"]
-  spec.summary       = %q{Get the latest status on the Rails source.}
+  spec.summary       = %q{See the latest commits in the Rails repository on GitHub.}
   spec.description   = %q{}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/paulmalenke/railscommits/"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
